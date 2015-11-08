@@ -17,9 +17,29 @@ var VRealEstateLanding = React.createClass({
   render: function() {
     return (
       <div>
-        <h1><strong>VRealEstate</strong></h1>
-        <h3>Utilize new research in image stiching and 3d reconstruction from image pairs to provide a 3d tour of a home.</h3>
-        <p>Panoramic photography is distorted and flat, a kinect to reconstruct the pcl of a space is twiddly and incomplete. How about we use existing images to reconstruct a 3d perspective. Microsoft Research recently announced stunning developments in the field of image reconstruction from multiple views to produce ICE; In tandem with traditional trigonometric methods, we can approximate the 3d structure of a series (or video) of 2d pictures. This application seeks to demonstrate the power of paying attention in math class.</p>
+        <div id="vre_masthead">
+          <h1>Open House, Anytime</h1>
+          <h3>Easily Showcase Listings With Virtual 3D Walkthroughs</h3>
+          <button className="btn--large">Try the Viewer</button>
+        </div>
+        <div id="vre_videodrop"></div>
+        <div id="vre_process" className="container">
+          <div className="vre-process-item">
+            <span>1</span>
+            <h4>Take Photos With Any Camera</h4>
+            <p>No special equipment required. Show off your property with the photographs you are already taking, then upload to your favourite service.</p>
+          </div>
+          <div className="vre-process-item">
+            <span>2</span>
+            <h4>Create a VRealEstate Listing</h4>
+            <p>An address and your image links are all we need to build an immersive virtual reality experience of your property.</p>
+          </div>
+          <div className="vre-process-item">
+            <span>3</span>
+            <h4>Share or Embed Your 3D Walkthrough</h4>
+            <p>Provide clients with a link to your VRealEstate viewer; hosted with us or your own website. Delight them with unprecedented access.</p>
+          </div>
+        </div>
       </div>
     )
   }

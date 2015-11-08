@@ -1,0 +1,33 @@
+/*
+
+  Button Styles
+  ~~~~~~~~~~~~~
+
+*/
+
+@import 'colors';
+
+$button-height: 42px;
+$button-height--lg: 55px;
+
+a.btn,
+button,
+input[type=button],
+input[type=submit] {
+  background: $blue-50;
+  border: 0;
+  border-radius: 5px;
+  height: $button-height;
+  line-height: $button-height;
+  padding: 0 34px; 
+  &.btn--large { 
+    font-size: 18px;
+    height: $button-height--lg; 
+    line-height: $button-height--lg; 
+    padding: 0 45px;
+  }
+  &.btn--secondary {
+    background: transparent;
+    border: 1px solid rgba(233, 233, 233, .3);
+  }
+}
