@@ -17,6 +17,7 @@ var Redirect = Router.Redirect;
 var routes = (
   <Route name="landing" path="/" handler={require('./base.jsx')}>
     <DefaultRoute handler={require('./landing.jsx')} />
+    <Route name="listing" handler={require('./listing.jsx')} />
   </Route>
 );
 
