@@ -14,6 +14,7 @@ var RouteHandler = Router.RouteHandler;
 
 // Import Shared Components
 var Header = require('./header.jsx');
+var Footer = require('./footer.jsx');
 
 // Base Window Component
 var VRealEstateBase = React.createClass({
@@ -23,6 +24,7 @@ var VRealEstateBase = React.createClass({
       <div className="vre-base-window">
         <Header />
         <RouteHandler />
+        <Footer />
       </div>
     );
   }
