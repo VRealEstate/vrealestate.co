@@ -11,6 +11,7 @@
 // Import React and Libraries
 var React = require('react');
 var Router = require('react-router');
+var Link = Router.Link;
 
 // Header Component
 var VRealEstateHeader = React.createClass({
@@ -20,12 +21,14 @@ var VRealEstateHeader = React.createClass({
       <div>
         <div id="vre_header">
           <div className="container">
-            <div id="vre_header_logo"><a>VRealEstate</a></div>
+            <div id="vre_header_logo">
+              <Link to="landing">VRealEstate</Link>
+            </div>
             <nav id="vre_header_nav">
-              <a href="/about">About</a>
-              <a href="/faqs">FAQs</a>
-              <a href="/contact">Contact</a>
-              <a href="/request" className="btn btn--secondary">Request Invite</a>
+              <Link to="landing">About</Link>
+              <Link to="landing">FAQs</Link>
+              <Link to="landing">Contact</Link>
+              <Link to="landing" className="btn btn--secondary">Request Invite</Link>
             </nav>
           </div>
         </div>
