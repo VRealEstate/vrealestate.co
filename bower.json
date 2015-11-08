@@ -1,0 +1,21 @@
+{
+  "name": "vrealestate.co",
+  "description": "A Virtual Reality Estate Experience",
+  "main": "index.js",
+  "authors": [
+    "VRealEstate"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
