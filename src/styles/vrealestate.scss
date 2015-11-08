@@ -1,0 +1,15 @@
+/*
+
+  VRealEstate Styles
+  ~~~~~~~~~~~~~~~~~~
+
+*/
+
+// Base UI Toolkit
+@import '../../bower_components/base/src/scss/style';
+
+// Root Container
+.vre-base-window {
+  margin: 0 auto;
+  width: 600px;
+}
